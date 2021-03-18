@@ -1,0 +1,36 @@
+/*ESTILOS ESPECIFICOS*/
+
+/*index.html*/
+#inicio{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    #iniciotexto{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #iniciovideo{
+        text-align: right;
+        border-top: solid 3px;
+        border-right: solid 3px;
+        border-left: solid 3px;
+        margin-left: 5%;
+        padding: 0%;
+    }
+}
+
+/*trabajos.html*/
+
+#trabajos{
+    border-bottom: solid 3px $violeta2;
+    #trabajostexto{
+        #trabajostextotitulo{
+            margin-top: 25%;
+            margin-right: 7%;
+        }
+        #trabajostextoparrafo{
+            margin-top:5%;
+        }
+    }
+}

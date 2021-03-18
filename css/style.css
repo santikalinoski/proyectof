@@ -1,0 +1,133 @@
+/*STYLE.SCSS*/
+/*VARIABLES*/
+/*Colores*/
+/*Header*/
+header {
+  color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: outset 1px #0d0d0d;
+  border-left: outset 4px #0d0d0d;
+  border-right: outset 4px #0d0d0d;
+  background-image: linear-gradient(to right, #5e305a, #84437f, #9e5098);
+  font-size: 100%;
+  font-weight: bolder;
+  overflow: auto;
+  padding: 0%, 0%, 0%, 0%; }
+  header li {
+    list-style: none; }
+    header li a {
+      color: #f2f2f2;
+      text-decoration: none; }
+  header .barradenavegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left; }
+  header .items {
+    margin: 2%;
+    width: 15%;
+    height: 5%;
+    text-align: center;
+    justify-items: center; }
+  header .items:hover {
+    transform: scale(1.2);
+    transition: 1s; }
+
+/*BODY Y MAIN*/
+body {
+  background-image: url(multimedia/fondo.jpg); }
+
+main h1 {
+  color: #0d0d0d;
+  font-style: normal;
+  font-family: 'Montserrat', monospace;
+  font-size: 250%;
+  font-weight: 1000;
+  text-align: justify; }
+
+main section {
+  color: #0d0d0d;
+  font-style: normal;
+  font-family: 'Montserrat', monospace;
+  font-size: 150%;
+  font-weight: 600;
+  text-align: justify; }
+
+/*FOOTER*/
+footer {
+  color: #f2f2f2;
+  border: solid 1px black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100%;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 0%;
+  padding-bottom: 10%;
+  background-image: linear-gradient(to bottom, #ab57a5, #5e305a); }
+
+#gridfooter {
+  display: grid;
+  grid-template-areas: "ubicacion ubicacion mapa" "logoig contactoig mapa" "logotw contactotw mapa" "logowpp contactowpp mapa";
+  grid-template-columns: 1fr 2fr 8fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center; }
+  #gridfooter .footerubicacion {
+    grid-area: ubicacion;
+    font-size: 130%; }
+  #gridfooter .footermapa {
+    grid-area: mapa;
+    width: 95%;
+    height: 95%; }
+  #gridfooter .footerlogoig {
+    grid-area: logoig;
+    text-align: right; }
+  #gridfooter .footercontactoig {
+    grid-area: contactoig;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+  #gridfooter .footerlogotw {
+    grid-area: logotw;
+    text-align: right; }
+  #gridfooter .footercontactotw {
+    grid-area: contactotw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+  #gridfooter .footerlogowpp {
+    grid-area: logowpp;
+    text-align: right; }
+  #gridfooter .footercontactowpp {
+    grid-area: contactowpp;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+
+/*ESTILOS ESPECIFICOS*/
+/*index.html*/
+#inicio {
+  margin-left: 5%;
+  margin-right: 5%; }
+  #inicio #iniciotexto {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  #inicio #iniciovideo {
+    text-align: right;
+    border-top: solid 3px;
+    border-right: solid 3px;
+    border-left: solid 3px;
+    margin-left: 5%;
+    padding: 0%; }
+
+/*trabajos.html*/
+#trabajos {
+  border-bottom: solid 3px #ea77e1; }
+  #trabajos #trabajostexto #trabajostextotitulo {
+    margin-top: 25%;
+    margin-right: 7%; }
+  #trabajos #trabajostexto #trabajostextoparrafo {
+    margin-top: 5%; }

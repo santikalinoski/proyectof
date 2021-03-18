@@ -1,0 +1,30 @@
+/*BODY Y MAIN*/
+
+
+body{
+    background-image: url(multimedia/fondo.jpg);
+}
+
+main{
+    h1{
+        color: $negro;
+        font-style: normal;
+        font-family: 'Montserrat', monospace;
+        font-size: 250%;
+        font-weight: 1000;
+        text-align: justify;
+    }
+
+    section{
+        color: $negro;
+        font-style: normal;
+        font-family: 'Montserrat', monospace;
+        font-size: 150%;
+        font-weight: 600;
+        text-align: justify;
+    }
+}
+
+
+
+
